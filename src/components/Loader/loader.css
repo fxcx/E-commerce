@@ -1,0 +1,9 @@
+.loader {
+  min-height: 90vh;
+  max-height: max-content;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=loader.css.map */

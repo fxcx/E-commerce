@@ -1,0 +1,37 @@
+.imgDetail{
+    width: min-content;
+    height: 420px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.itemPrice{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.precio{
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.precioOferta{
+    color: rgba(70, 68, 68, 0.728);
+    font-weight: 600;
+    margin-top: 10px;
+    text-decoration: line-through;
+}
+
+.oferta{
+    color: rgb(21, 121, 21);
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .imgDetail{
+        height: 200px;
+    }
+  }

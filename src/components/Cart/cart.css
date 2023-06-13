@@ -1,0 +1,28 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+  min-height: 90vh;
+  max-height: max-content;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 720px) {
+  .cart {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .cart {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=cart.css.map */

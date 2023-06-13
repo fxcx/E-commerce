@@ -1,0 +1,14 @@
+.buttonCount {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+}
+
+.buttonCountRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  justify-content: center;
+  margin-top: 5px;
+}/*# sourceMappingURL=buttonCount.css.map */

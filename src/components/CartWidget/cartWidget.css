@@ -1,0 +1,25 @@
+.carrito {
+  background-color: rgb(232, 206, 133);
+  width: auto;
+  height: 60px;
+  border-radius: 10%;
+  padding: 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.carrito:hover {
+  color: black;
+  background-color: rgb(224, 195, 117);
+}
+.carrito p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.icono {
+  width: auto;
+  height: 30px;
+}/*# sourceMappingURL=cartWidget.css.map */

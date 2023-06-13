@@ -1,0 +1,77 @@
+a:link, a:visited, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 220px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+.item h5 {
+  font-size: 16px;
+}
+.item:hover {
+  border: 1px solid lightgray;
+  color: black;
+}
+
+.imgItem {
+  height: 180px;
+  width: min-content;
+}
+
+.precio {
+  color: black;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.precioOferta {
+  color: rgba(70, 68, 68, 0.728);
+  font-weight: 600;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+
+.oferta {
+  color: rgb(21, 121, 21);
+  font-weight: 700;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 5px;
+}
+
+@media (max-width: 720px) {
+  .item {
+    height: 240px;
+    width: 160px;
+  }
+  .item h5 {
+    font-size: 14px;
+  }
+  .imgItem {
+    height: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .item {
+    height: 200px;
+    width: 120px;
+  }
+  .item h5 {
+    font-size: 12px;
+  }
+  .imgItem {
+    height: 90px;
+  }
+}/*# sourceMappingURL=item.css.map */
